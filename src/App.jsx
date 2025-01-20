@@ -12,6 +12,8 @@ import Gallery from './Pages/Gallery'
 import Blog from './Pages/Blog'
 import Contact from './Pages/Contact'
 
+
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -27,6 +29,7 @@ function App() {
       <Route path='/blog' element={<Blog/>}/>
       <Route path='/contact' element={<Contact/>}/>
       </Routes>
+      
     </>
   )
 }
